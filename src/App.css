@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: content-box;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+form{
+    margin:20px;
+    padding:5px;
+}
+form label,form input, form button, form textarea{
+    display:block;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+form label{
+    margin-top: 15px;
+}
+form input{
+    border: 1px solid lightgray;
+}
+button{
+    background: blue;
+    padding: 5px;
+    color: azure;
+    border-radius: 5px;
+    border: 1px outset gray;
+}
+table,table th, table td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+}
+.displayContainer{
+    margin: 20px;
+    padding: 5px;
+}
+button:hover{
+    background-color: rgb(14, 194, 14);
+    border: 1px inset;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(230, 220, 220);
+}
